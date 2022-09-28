@@ -6,6 +6,6 @@ bases:
 
 resources:
 - dbclaim-pvc.yaml
-- route.yaml
+- route-mng.yaml
 
-namePrefix: dev-
+namePrefix: prod-
