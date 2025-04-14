@@ -1,5 +1,6 @@
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
+Kind: Kustomization
 
 bases:
   - ../../base
@@ -8,4 +9,5 @@ resources:
 - dbclaim-pvc.yaml
 - route.yaml
 
-namePrefix: dev-
+namePrefix: prod-
+...
